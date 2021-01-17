@@ -40,6 +40,7 @@ def hms_string(sec_elapsed):
 
 
 def xml_parser(file_name):
+    # For logging app.log file has been created 
     logging.basicConfig(level=logging.DEBUG, filename='app.log', format='%(asctime)s %(levelname)s:%(message)s')
     start_time = time.time()
 
