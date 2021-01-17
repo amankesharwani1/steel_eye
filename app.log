@@ -1,0 +1,82 @@
+2021-01-16 22:32:28,095 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:32:28,138 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:32:28,143 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-11-98c010069c1a>", line 34, in xml_reader
+    tname = strip_tag_name(elem.tag)
+  File "<ipython-input-7-d204d0c185c9>", line 3, in strip_tag_name
+    t=elem.tag
+NameError: name 'elem' is not defined
+
+2021-01-16 22:32:28,143 DEBUG:Total runtime: 0:01:02.11
+2021-01-16 22:32:38,705 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:32:38,706 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:32:38,746 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-13-98c010069c1a>", line 34, in xml_reader
+    tname = strip_tag_name(elem.tag)
+  File "<ipython-input-7-d204d0c185c9>", line 3, in strip_tag_name
+    t=elem.tag
+NameError: name 'elem' is not defined
+
+2021-01-16 22:32:38,746 DEBUG:Total runtime: 0:01:12.72
+2021-01-16 22:35:55,390 DEBUG:pickle loaded: C:\Users\Aman_Kesharwani\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-01-16 22:35:55,440 DEBUG:pickle loaded: C:\Users\Aman_Kesharwani\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2021-01-16 22:36:29,409 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:36:29,410 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:36:29,449 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-15-ca445812c6a8>", line 68, in xml_reader
+    csvwriter.writerow([Id, FullNm, ClssfctnTp, CmmdtyDerivInd, NtnlCcy, Issr])
+UnboundLocalError: local variable 'Issr' referenced before assignment
+
+2021-01-16 22:36:29,450 DEBUG:Total runtime: 0:05:03.42
+2021-01-16 22:45:26,788 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:45:26,789 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:45:26,814 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-17-5212fb309cf0>", line 70, in xml_reader
+    csvwriter.writerow([Id, FullNm, ClssfctnTp, CmmdtyDerivInd, NtnlCcy, Issr])
+UnboundLocalError: local variable 'Issr' referenced before assignment
+
+2021-01-16 22:45:26,814 DEBUG:Total runtime: 0:14:00.78
+2021-01-16 22:47:13,921 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:47:13,923 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:48:58,748 DEBUG:Total records read from XML file are 500000
+2021-01-16 22:48:58,748 DEBUG:Total runtime: 0:17:32.72
+2021-01-16 22:57:26,728 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:57:26,728 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:57:26,732 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-24-89bdb48bcf7d>", line 72, in xml_reader
+    csvwriter.writerow([Id, FullNm, ClssfctnTp, CmmdtyDerivInd, NtnlCcy, Issr])
+NameError: name 'Issr' is not defined
+
+2021-01-16 22:57:26,733 DEBUG:Total runtime: 0:00:00.02
+2021-01-16 22:58:13,092 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:58:13,093 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 22:58:13,099 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-26-250c22a756f9>", line 73, in xml_reader
+    csvwriter.writerow([Id, FullNm, ClssfctnTp, CmmdtyDerivInd, NtnlCcy, Issr])
+NameError: name 'Issr' is not defined
+
+2021-01-16 22:58:13,099 DEBUG:Total runtime: 0:00:00.01
+2021-01-16 22:59:03,623 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 22:59:03,624 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 23:00:40,360 DEBUG:Total records read from XML and written to CSV file are 500000
+2021-01-16 23:00:40,360 DEBUG:Total runtime: 0:01:36.74
+2021-01-16 23:01:52,834 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 23:01:52,835 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 23:01:52,840 ERROR:uncaught exception: Traceback (most recent call last):
+  File "<ipython-input-30-a7880e7dfe98>", line 74, in xml_reader
+    csvwriter.writerow([Id, FullNm, ClssfctnTp, CmmdtyDerivInd, NtnlCcy, Issr])
+NameError: name 'Issr' is not defined
+
+2021-01-16 23:01:52,841 DEBUG:Total runtime: 0:00:00.02
+2021-01-16 23:06:55,704 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-16 23:06:55,705 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-16 23:08:44,902 DEBUG:Total records read from XML and written to CSV file are 500000
+2021-01-16 23:08:44,902 DEBUG:Total runtime: 0:01:49.20
+2021-01-17 16:15:11,487 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-17 16:15:11,487 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-17 16:16:28,907 DEBUG:Total records read from XML and written to CSV file are 500000
+2021-01-17 16:16:28,907 DEBUG:Total runtime: 0:01:17.44
+2021-01-17 16:17:36,813 DEBUG:Empty file with file name Output_Data.csv has been created
+2021-01-17 16:17:36,813 DEBUG:XML file with name DLTINS_20200108_01of03.xml read successfully
+2021-01-17 16:18:55,551 DEBUG:Total records read from XML and written to CSV file are 500000
+2021-01-17 16:18:55,551 DEBUG:Total runtime: 0:01:18.75
