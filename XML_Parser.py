@@ -1,6 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#-----------------------------------------------------------------------------
+# This example will read an XML file and parse out the data using the
+# lxml.etree library that is included in the standard library. 
+# There are a number of external XML parsing libraries that can be used with 
+# Python. Details are available at wiki.python.org/moin/PythonXml. If you plan 
+# to do a lot of XML processing, then I would suggest looking at the lxml 
+# library. It is based on libxml2 and libxslt and is fast and easy to use. You 
+# can get more information about lxml at http://lxml.de/index.html. 
+#-----------------------------------------------------------------------------
+
+
 # In[21]:
 
 
@@ -28,7 +39,7 @@ def hms_string(sec_elapsed):
 # In[32]:
 
 
-def xml_reader(file_name):
+def xml_parser(file_name):
     logging.basicConfig(level=logging.DEBUG, filename='app.log', format='%(asctime)s %(levelname)s:%(message)s')
     start_time = time.time()
 
@@ -119,12 +130,11 @@ def xml_reader(file_name):
 # In[33]:
 
 
-xml_reader("DLTINS_20200108_01of03.xml")
+xml_parser("DLTINS_20200108_01of03.xml")
 
 
 # In[ ]:
 
-'''
 #### Upload the CSV file to S3 bucket
 import boto3
 from botocore.exceptions import NoCredentialsError
@@ -150,4 +160,4 @@ def upload_to_aws(local_file, bucket, s3_file):
 
 
 uploaded = upload_to_aws('Output_Data.csv', 'bucket_name', 's3_file_name')
-'''
+
